@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Load the dataset
-real_estate_data = pd.read_csv(r"C:\Users\Akhil M\Downloads\Real_Estate.csv",parse_dates=False)  # <-- Replace with your actual path if needed
+real_estate_data = pd.read_csv("Real_Estate.csv",parse_dates=False)  # <-- Replace with your actual path if needed
 
 # Selecting features and target variable
 features = ['Distance to the nearest MRT station', 'Number of convenience stores', 'Latitude', 'Longitude']
